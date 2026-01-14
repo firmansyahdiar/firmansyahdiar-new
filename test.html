@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Setup Test</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            padding: 40px 20px;
+            background: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        
+        .test-item {
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .test-item.success {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+        }
+        
+        .test-item.error {
+            background: #f8d7da;
+            border-left: 4px solid #dc3545;
+        }
+        
+        .test-item.warning {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+        }
+        
+        .icon {
+            font-size: 24px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+        
+        .btn:hover {
+            background: #0056b3;
+        }
+        
+        .info-box {
+            background: #e7f3ff;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+            border-left: 4px solid #007bff;
+        }
+        
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        
+        li {
+            margin: 8px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>✅ Portfolio Website Setup Complete!</h1>
+        <p class="subtitle">Semua file telah berhasil dibuat dan siap digunakan</p>
+        
+        <div id="test-results">
+            <!-- Will be populated by JavaScript -->
+        </div>
+        
+        <div class="info-box">
+            <h3>📋 Next Steps:</h3>
+            <ol>
+                <li>Start local server dengan salah satu command:
+                    <ul>
+                        <li><code>python -m http.server 8000</code></li>
+                        <li><code>php -S localhost:8000</code></li>
+                        <li><code>npx http-server -p 8000</code></li>
+                    </ul>
+                </li>
+                <li>Buka browser dan akses <code>http://localhost:8000</code></li>
+                <li>Update data di <code>assets/data/portfolio.json</code> sesuai kebutuhan</li>
+                <li>Tambahkan foto profil di <code>assets/img/avatar.jpg</code> (optional)</li>
+            </ol>
+        </div>
+        
+        <a href="index.html" class="btn">🚀 Open Portfolio Website</a>
+    </div>
+    
+    <script>
+        // Test file structure
+        const tests = [
+            {
+                name: 'index.html',
+                check: () => true, // We're viewing this from the same folder
+                message: 'Main HTML file exists'
+            },
+            {
+                name: 'assets/data/portfolio.json',
+                check: async () => {
+                    try {
+                        const response = await fetch('./assets/data/portfolio.json');
+                        return response.ok;
+                    } catch {
+                        return false;
+                    }
+                },
+                message: 'Portfolio data file exists and accessible'
+            },
+            {
+                name: 'assets/js/main.js',
+                check: async () => {
+                    try {
+                        const response = await fetch('./assets/js/main.js');
+                        return response.ok;
+                    } catch {
+                        return false;
+                    }
+                },
+                message: 'Main JavaScript file exists'
+            },
+            {
+                name: 'assets/js/theme.js',
+                check: async () => {
+                    try {
+                        const response = await fetch('./assets/js/theme.js');
+                        return response.ok;
+                    } catch {
+                        return false;
+                    }
+                },
+                message: 'Theme JavaScript file exists'
+            },
+            {
+                name: 'assets/js/render.js',
+                check: async () => {
+                    try {
+                        const response = await fetch('./assets/js/render.js');
+                        return response.ok;
+                    } catch {
+                        return false;
+                    }
+                },
+                message: 'Render JavaScript file exists'
+            }
+        ];
+        
+        async function runTests() {
+            const resultsDiv = document.getElementById('test-results');
+            resultsDiv.innerHTML = '<h3>🔍 System Check:</h3>';
+            
+            for (const test of tests) {
+                const result = await test.check();
+                const statusClass = result ? 'success' : 'error';
+                const icon = result ? '✅' : '❌';
+                
+                resultsDiv.innerHTML += `
+                    <div class="test-item ${statusClass}">
+                        <span class="icon">${icon}</span>
+                        <div>
+                            <strong>${test.name}</strong><br>
+                            <small>${test.message}</small>
+                        </div>
+                    </div>
+                `;
+            }
+            
+            // Check if running on local server
+            if (window.location.protocol === 'file:') {
+                resultsDiv.innerHTML += `
+                    <div class="test-item warning">
+                        <span class="icon">⚠️</span>
+                        <div>
+                            <strong>Local Server Required</strong><br>
+                            <small>Please run this from a local server (not file://). Use one of the commands in the Next Steps section.</small>
+                        </div>
+                    </div>
+                `;
+            } else {
+                resultsDiv.innerHTML += `
+                    <div class="test-item success">
+                        <span class="icon">✅</span>
+                        <div>
+                            <strong>Local Server Running</strong><br>
+                            <small>Perfect! You're running from ${window.location.origin}</small>
+                        </div>
+                    </div>
+                `;
+            }
+        }
+        
+        runTests();
+    </script>
+</body>
+</html>

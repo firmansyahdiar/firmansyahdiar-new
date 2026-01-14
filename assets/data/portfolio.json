@@ -1,0 +1,696 @@
+{
+  "profile": {
+    "name": "Diar Firmansyah",
+    "title": "Senior Fullstack Developer",
+    "subtitle": "Senior Developer | Tech Lead | Full Stack Engineer",
+    "location": "Bogor, Indonesia",
+    "email": "firmansyahdiar@gmail.com",
+    "phone": "+6281290328569",
+    "website": "www.firmansyahdiar.my.id",
+    "avatar": "/assets/img/profile.JPG",
+    "tagline": "Building scalable solutions with 10+ years of experience",
+    "yearsOfExperience": 10,
+    "projectsCompleted": 79,
+    "clientsServed": 20,
+    "hobbies": ["Badminton", "Traveling", "Fotografi"]
+  },
+  "about": {
+    "title": "About Me",
+    "summary": "Senior Fullstack Developer dengan pengalaman lebih dari 10 tahun dalam pengembangan aplikasi web dan mobile. Berpengalaman memimpin tim sebagai CTO dan menangani proyek-proyek kompleks dari berbagai industri.",
+    "highlights": [
+      "10+ tahun pengalaman profesional di bidang software development",
+      "Berpengalaman sebagai CTO di startup teknologi",
+      "Ahli dalam fullstack development (Frontend & Backend)",
+      "Telah menangani 79+ proyek untuk 20+ klien korporat",
+      "Spesialisasi dalam Php, Java, React, JavaScript, TypeScript, Mobile App dan teknologi modern lainnya"
+    ],
+    "description": "Passionate developer yang selalu mengikuti perkembangan teknologi terkini. Memiliki track record yang kuat dalam membangun sistem enterprise, aplikasi mobile, dan solusi IoT. Mampu bekerja dalam tim maupun memimpin project dari konsep hingga deployment."
+  },
+  "skills": {
+    "programmingLanguages": [
+      { "name": "PHP", "level": 95, "icon": "devicon-php-plain" },
+      { "name": "JavaScript", "level": 95, "icon": "devicon-javascript-plain" },
+      { "name": "Java", "level": 85, "icon": "devicon-java-plain" },
+      { "name": "Python", "level": 80, "icon": "devicon-python-plain" },
+      { "name": "C++", "level": 75, "icon": "devicon-cplusplus-plain" },
+      { "name": "Dart", "level": 85, "icon": "devicon-dart-plain" },
+      { "name": "GoLang", "level": 70, "icon": "devicon-go-plain" },
+      { "name": "Ruby", "level": 65, "icon": "devicon-ruby-plain" },
+      { "name": "Swift", "level": 70, "icon": "devicon-swift-plain" }
+    ],
+    "frameworks": [
+      { "name": "Laravel", "level": 95, "icon": "devicon-laravel-plain" },
+      { "name": "React", "level": 90, "icon": "devicon-react-original" },
+      { "name": "React Native", "level": 90, "icon": "devicon-react-original" },
+      { "name": "Next.js", "level": 85, "icon": "devicon-nextjs-original" },
+      { "name": "Node.js", "level": 90, "icon": "devicon-nodejs-plain" },
+      { "name": "Express.js", "level": 90, "icon": "devicon-express-original" },
+      { "name": ".NET", "level": 75, "icon": "devicon-dot-net-plain" },
+      { "name": "Bootstrap", "level": 90, "icon": "devicon-bootstrap-plain" },
+      { "name": "Tailwind CSS", "level": 95, "icon": "devicon-tailwindcss-plain" }
+    ],
+    "databases": [
+      { "name": "MySQL", "level": 95, "icon": "devicon-mysql-plain" },
+      { "name": "PostgreSQL", "level": 85, "icon": "devicon-postgresql-plain" },
+      { "name": "Oracle", "level": 80, "icon": "devicon-oracle-original" },
+      { "name": "SQL Server", "level": 85, "icon": "devicon-microsoftsqlserver-plain" },
+      { "name": "MariaDB", "level": 90, "icon": "devicon-mysql-plain" },
+      { "name": "MongoDB", "level": 80, "icon": "devicon-mongodb-plain" }
+    ],
+    "technologies": [
+      { "name": "Git", "icon": "devicon-git-plain" },
+      { "name": "Docker", "icon": "devicon-docker-plain" },
+      { "name": "REST API", "icon": "fas fa-code" },
+      { "name": "Geofencing", "icon": "fas fa-map-marked-alt" },
+      { "name": "Face Recognition", "icon": "fas fa-user-shield" },
+      { "name": "OpenCV", "icon": "devicon-opencv-plain" },
+      { "name": "CI/CD", "icon": "fas fa-sync-alt" },
+      { "name": "AWS", "icon": "devicon-amazonwebservices-original" },
+      { "name": "Firebase", "icon": "devicon-firebase-plain" }
+    ]
+  },
+  "experiences": [
+    {
+      "id": 1,
+      "company": "PT. FOCUS INTI SOLUSI",
+      "position": "Senior Developer",
+      "period": "2023 - Present",
+      "startDate": "2023-01-01",
+      "endDate": null,
+      "location": "Bogor, Indonesia",
+      "type": "Full-time",
+      "description": "Memimpin pengembangan aplikasi enterprise dan sistem terintegrasi untuk berbagai klien korporat.",
+      "responsibilities": [
+        "Merancang dan mengembangkan arsitektur aplikasi skala enterprise",
+        "Memimpin tim developer dalam project development",
+        "Code review dan quality assurance",
+        "Implementasi best practices dan design patterns",
+        "Koordinasi dengan stakeholder dan client"
+      ],
+      "achievements": [
+        "Berhasil deliver 20+ project dengan tingkat kepuasan klien 95%",
+        "Meningkatkan efisiensi development process hingga 40%",
+        "Implementasi CI/CD pipeline untuk semua project"
+      ],
+      "technologies": ["Laravel", "React", "React Native", "Node.js", "MySQL", "PostgreSQL", "Docker", "AWS"]
+    },
+    {
+      "id": 2,
+      "company": "PT. Mega Kreasi Teknologi",
+      "position": "CTO (Fullstack Developer)",
+      "period": "2021 - 2023",
+      "startDate": "2021-01-01",
+      "endDate": "2023-01-01",
+      "location": "Jakarta, Indonesia",
+      "type": "Full-time",
+      "description": "Bertanggung jawab atas semua aspek teknologi perusahaan, dari strategi hingga implementasi.",
+      "responsibilities": [
+        "Menentukan arah teknologi dan stack yang digunakan perusahaan",
+        "Membangun dan memimpin tim engineering",
+        "Merancang sistem dan infrastruktur IT perusahaan",
+        "Mengembangkan product utama perusahaan (IOWork, Shira.id)",
+        "Mengelola budget teknologi dan vendor"
+      ],
+      "achievements": [
+        "Membangun tim engineering dari 0 menjadi 15 orang",
+        "Meluncurkan IOWork.id yang digunakan oleh 50+ perusahaan",
+        "Mengembangkan Shira.id sebagai platform layanan digital",
+        "Meningkatkan revenue perusahaan 3x dalam 2 tahun"
+      ],
+      "technologies": ["Laravel", "React Native", "Next.js", "Node.js", "PostgreSQL", "Redis", "Docker", "Google Cloud"]
+    },
+    {
+      "id": 3,
+      "company": "PT. PARAMA TEKNOLOGI",
+      "position": "Programmer",
+      "period": "2016 - 2021",
+      "startDate": "2016-01-01",
+      "endDate": "2021-01-01",
+      "location": "Bogor, Indonesia",
+      "type": "Full-time",
+      "description": "Mengembangkan berbagai aplikasi web dan mobile untuk klien dari berbagai industri.",
+      "responsibilities": [
+        "Full-stack development untuk web dan mobile apps",
+        "Analisis kebutuhan dan solusi teknis",
+        "Database design dan optimization",
+        "API development dan integration",
+        "Maintenance dan support aplikasi"
+      ],
+      "achievements": [
+        "Menyelesaikan 40+ project dengan berbagai teknologi",
+        "Mengembangkan sistem untuk bank, pemerintahan, dan korporat",
+        "Implementasi face recognition dan geofencing untuk attendance system",
+        "Menjadi lead developer untuk project-project strategis"
+      ],
+      "technologies": ["Laravel", "Java", "React Native", ".NET", "MySQL", "SQL Server", "OpenCV"]
+    },
+    {
+      "id": 4,
+      "company": "PT. CAHAYA BUANA",
+      "position": "Programmer C",
+      "period": "2014 - 2016",
+      "startDate": "2014-01-01",
+      "endDate": "2016-01-01",
+      "location": "Jakarta, Indonesia",
+      "type": "Full-time",
+      "description": "Pengembangan aplikasi desktop dan web untuk sistem internal perusahaan.",
+      "responsibilities": [
+        "Mengembangkan aplikasi menggunakan C++ dan .NET",
+        "Database management dengan SQL Server",
+        "Sistem reporting dan dashboard",
+        "Technical support dan troubleshooting"
+      ],
+      "achievements": [
+        "Mengembangkan sistem inventory management",
+        "Automatisasi proses reporting",
+        "Peningkatan performance aplikasi legacy"
+      ],
+      "technologies": ["C++", ".NET", "SQL Server", "Visual Basic"]
+    },
+    {
+      "id": 5,
+      "company": "ROBOTIC CHAMP",
+      "position": "Guru Les Robotic",
+      "period": "2011",
+      "startDate": "2011-01-01",
+      "endDate": "2011-12-31",
+      "location": "Bogor, Indonesia",
+      "type": "Part-time",
+      "description": "Mengajar robotika untuk anak-anak dan remaja.",
+      "responsibilities": [
+        "Mengajar dasar-dasar robotika dan programming",
+        "Membimbing siswa dalam project robotika",
+        "Persiapan kompetisi robotika"
+      ],
+      "achievements": [
+        "Siswa berhasil menjuarai kompetisi robotika tingkat regional"
+      ],
+      "technologies": ["Arduino", "C++", "Robotics"]
+    },
+    {
+      "id": 6,
+      "company": "SDN BANGKA BOGOR",
+      "position": "Guru TIK",
+      "period": "2011",
+      "startDate": "2011-01-01",
+      "endDate": "2011-12-31",
+      "location": "Bogor, Indonesia",
+      "type": "Part-time",
+      "description": "Mengajar mata pelajaran Teknologi Informasi dan Komunikasi.",
+      "responsibilities": [
+        "Mengajar dasar komputer dan internet",
+        "Membuat materi pembelajaran TIK",
+        "Mengelola laboratorium komputer"
+      ],
+      "achievements": [
+        "Meningkatkan literasi digital siswa"
+      ],
+      "technologies": ["Microsoft Office", "Basic Programming"]
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "IOWork",
+      "tagline": "Platform Manajemen Tenaga Kerja Modern",
+      "description": "IOWORK adalah tempat dimana penyedia pekerjaan dan pencari kerja bertemu secara langsung tanpa batasan. Masing-masing penyedia pekerjaan dan pencari kerja dapat memilih untuk melakukan kemitraan kerja dengan masing-masing pihak.",
+      "url": "https://iowork.id",
+      "image": "/assets/img/project/2021-iowork.png",
+      "category": "SaaS Platform",
+      "technologies": [],
+      "features": [
+        "Attendance dengan face recognition",
+        "Geofencing untuk tracking lokasi",
+        "Real-time reporting",
+        "Multi-company support"
+      ],
+      "stats": {
+        "users": "50+ Companies",
+        "downloads": "5K+",
+        "rating": "4.8/5"
+      }
+    },
+    {
+      "id": 2,
+      "name": "InsyaAllah Jannah",
+      "tagline": "Aplikasi Islami untuk Kehidupan Sehari-hari",
+      "description": "Aplikasi islami yang menyediakan berbagai fitur untuk mendukung ibadah sehari-hari seperti Al-Quran digital, jadwal sholat, dzikir, kiblat dan masih banyak lagi.",
+      "url": "https://insyaallah-jannah.firmansyahdiar.my.id/",
+      "platforms": ["Web", "Android", "iOS"],
+      "image": "/assets/img/project/insyaallah-jannah.png",
+      "category": "Mobile & Web App",
+      "technologies": ["ReactJs", "React Native", "MySQL", "NodeJs", "Php"],
+      "features": [
+        "Al-Quran digital dengan terjemahan",
+        "Jadwal sholat otomatis",
+        "Dzikir dan doa harian",
+        "Qiblat finder",
+        "Kajian Islami",
+        "dan Banyak lagi"
+      ],
+      "stats": {
+        "downloads": "100K+",
+        "rating": "4.9/5"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Ingatin",
+      "tagline": "Biar nggak lupa, biar hidup lebih tenang.",
+      "description": "Aplikasi pengingat fleksibel dan catatan aman dengan enkripsi. Kelola jadwal harian, reminder penting, dan catatan pribadi dalam satu aplikasi yang mudah dan aman.",
+      "url": "https://ingatin.firmansyahdiar.my.id/",
+      "platforms": ["Web", "Android", "iOS"],
+      "image": "/assets/img/project/ingatin.webp",
+      "category": "Mobile & Web App",
+      "technologies": ["Next", "React Native", "MySQL", "NodeJs", "Php"],
+      "features": [
+        "Reminder Fleksibel",
+        "Catatan Aman",
+        "Offline & Aman",
+        "Backup Google Drive",
+        "dan Banyak lagi"
+      ],
+      "stats": {
+        "downloads": "100K+",
+        "rating": "4.9/5"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Shira.id",
+      "tagline": "Platform Layanan Digital Terpadu",
+      "description": "Platform yang menyediakan berbagai layanan digital untuk memudahkan kehidupan sehari-hari.",
+      "url": "https://shira.id",
+      "image": "/assets/img/project/shira.png",
+      "category": "Digital Platform",
+      "technologies": [],
+      "features": [
+        "Multi-service platform",
+        "Payment gateway integration",
+        "User management",
+        "Notification system"
+      ],
+      "stats": {
+        "users": "50+ Companies",
+        "downloads": "5K+",
+        "rating": "4.8/5"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "year": 2025,
+      "items": [
+        {
+          "name": "Aplikasi Ticketing BAPENDA",
+          "company": "BAPENDA Kota Bogor",
+          "description": "Pengembangan aplikasi ticketing di BAPENDA Kota Bogor",
+          "image": "/assets/img/project/bapenda.png"
+        },
+        {
+          "name": "Maintenance Facility ASDP",
+          "company": "ASDP Indonesia Ferry",
+          "description": "Aplikasi Maintenance Facility di ASDP Indonesia Ferry",
+          "image": "/assets/img/project/asdp.png"
+        },
+        {
+          "name": "Pemetaan Dokter THT",
+          "company": "PERHATI-KL",
+          "description": "Pemetaan Dokter Spesialis THT di Indonesia (PERHATI-KL)",
+          "image": "/assets/img/project/pemetaan.png"
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "items": [
+        {
+          "name": "CMS Greenland Kemang",
+          "company": "PT. Focus Inti Solusi",
+          "description": "CMS Perumahan Greenland Kemang",
+          "image": "/assets/img/project/2023-greenland.png"
+        },
+        {
+          "name": "Billing CDR PT Trada",
+          "company": "PT Trada",
+          "description": "Aplikasi Billing CDR di PT Trada",
+          "image": "/assets/img/project/2023-trada.png"
+        },
+        {
+          "name": "Absensi Sales Hurricane",
+          "company": "PT Hurricane",
+          "description": "Aplikasi Absensi dan Penjualan Sales di PT Hurricane",
+          "image": "/assets/img/project/2023-hurricane.png"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "items": [
+        {
+          "name": "Aplikasi Cepot ISPA",
+          "company": "PERHATI-KL",
+          "description": "Aplikasi Cepot ISPA di RSUD Ujung Berung Bandung (PERHATI-KL)",
+          "image": "/assets/img/project/2022-cepot.png"
+        },
+        {
+          "name": "Monitoring Cancer Jabar",
+          "company": "PT. Media Edukasi",
+          "description": "Aplikasi monitoring penyakit cancer di Jawa Barat (PT. Media Edukasi)",
+          "image": "/assets/img/project/no-image.png"
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "items": [
+        {
+          "name": "Aplikasi Presisi",
+          "company": "Polres Kota Bogor",
+          "description": "Aplikasi Presisi di Polres Kota Bogor",
+          "image": "/assets/img/project/2021-presisi.png"
+        },
+        {
+          "name": "Smarttendik PAI",
+          "company": "PT. Media Edukasi",
+          "description": "Aplikasi Smarttendik PAI di Pokjawas - Pengawas dari Kemenag (PT. Media Edukasi)",
+          "image": "/assets/img/project/2021-smarttendik.png"
+        },
+        {
+          "name": "Elearning PAI",
+          "company": "PT. Media Edukasi",
+          "description": "Aplikasi Elearning PAI di Pokjawas - Pengawas dari Kemenag (PT. Media Edukasi)",
+          "image": "/assets/img/project/2021-elearning.png"
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "items": [
+        {
+          "name": "Payroll Bluepac",
+          "company": "PT Bluepac Services",
+          "description": "Aplikasi payroll di PT Bluepac Services",
+          "image": "/assets/img/project/2021-payroll.png"
+        },
+        {
+          "name": "Ticketing ASABA",
+          "company": "PT. Parama Teknologi",
+          "description": "Aplikasi Ticketing di PT ASABA (PT. Parama Teknologi)",
+          "image": "/assets/img/project/2021-ticketing.png"
+        },
+        {
+          "name": "SIPAM - Pembangunan Air Minum",
+          "company": "PUPR Kab. Bogor",
+          "description": "Aplikasi Sistem Informasi Pembangunan Air Minum di PUPR Kab. Bogor",
+          "image": "/assets/img/project/2021-sipam.png"
+        },
+        {
+          "name": "Dokumen Monitoring",
+          "company": "PUPR",
+          "description": "Aplikasi Dokumen Monitoring Sistem (PUPR)",
+          "image": "/assets/img/project/2021-dms.png"
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "items": [
+        {
+          "name": "Aplikasi Kontraktor",
+          "company": "CV. WJA",
+          "description": "Aplikasi Kontraktor di CV. WJA",
+          "image": "/assets/img/project/wja.png"
+        },
+        {
+          "name": "Market Place Sokokene",
+          "company": "Sokokene",
+          "description": "Market Place Export product Indonesia",
+          "image": "/assets/img/project/sokokene.png"
+        },
+        {
+          "name": "Monitoring Limbah PLN",
+          "company": "PLN Indonesia Power",
+          "description": "Aplikasi Monitoring Limbah – PLN Indonesia Power",
+          "image": "/assets/img/project/ip.png"
+        },
+        {
+          "name": "MUTU RSAU",
+          "company": "RSAU M. Hassan Toto",
+          "description": "Aplikasi MUTU di RSAU M. Hassan Toto",
+          "image": "/assets/img/project/simutu.png"
+        },
+        {
+          "name": "Absensi DTSU",
+          "company": "PT. Parama Teknologi",
+          "description": "Aplikasi absensi untuk PT DTSU (PT. Parama Teknologi)",
+          "image": "/assets/img/project/absensi.png"
+        },
+        {
+          "name": "Rico App Backend",
+          "company": "PT. Parama Teknologi",
+          "description": "Aplikasi Rico App/Assuransi – Backend di PT DTSU (PT. Parama Teknologi)",
+          "image": "/assets/img/project/no-image.png"
+        },
+        {
+          "name": "DKT Bidan Indonesia",
+          "company": "PT. Parama Teknologi",
+          "description": "Aplikasi DKT (Bidan Indonesia) (PT. Parama Teknologi)",
+          "image": "/assets/img/project/dkt.png"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "items": [
+        {
+          "name": "Registrasi Dunhil",
+          "company": "PT. Parama Teknologi",
+          "description": "Aplikasi Registrasi untuk even Dunhil (PT. Parama Teknologi)",
+          "image": "/assets/img/project/no-image.png"
+        },
+        {
+          "name": "Smell Meter Dunhil",
+          "company": "PT. Parama Teknologi",
+          "description": "Aplikasi Pamerean (Smell Meter) untuk even Dunhil (PT. Parama Teknologi)",
+          "image": "/assets/img/project/smell.png"
+        },
+        {
+          "name": "SIMRS RSAU",
+          "company": "RSAU M. Hassan Toto",
+          "description": "Aplikasi SIMRS di RSAU M. Hassan Toto",
+          "image": "/assets/img/project/simrs.png"
+        },
+        {
+          "name": "Registrasi Rawat Jalan",
+          "company": "RSAU M. Hassan Toto",
+          "description": "Aplikasi Registrasi rawat jalan online di RSAU M. Hassan Toto",
+          "image": "/assets/img/project/no-image.png"
+        },
+        {
+          "name": "FAROMEETING Bali",
+          "company": "PERHATI-KL",
+          "description": "Pendaftaran Even Kedokteran FAROMEETING di Bali (PERHATI-KL)",
+          "image": "/assets/img/project/congres.png"
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "items": [
+        {
+          "name": "TSM Alfa Bogor",
+          "company": "Alfamart",
+          "description": "Aplikasi maintenance (TSM) alfa area bogor",
+          "image": "/assets/img/project/tsm.png"
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "items": [
+        {
+          "name": "Bawana Travel",
+          "company": "Travel Agency",
+          "description": "Website Travel yang terkoneksi dengan API",
+          "image": "/assets/img/project/bawana.png"
+        },
+        {
+          "name": "Backend Touchs",
+          "company": "Touchs",
+          "description": "Backend Aplikasi Touchs",
+          "image": "/assets/img/project/2023-inntouch.png"
+        },
+        {
+          "name": "Website Efata Travel",
+          "company": "Efata Travel",
+          "description": "Website Efata Travel",
+          "image": "/assets/img/project/efata.png"
+        },
+        {
+          "name": "AANOA Congress",
+          "company": "PERHATI-KL",
+          "description": "Pendaftaran Even Kedokteran International AANOA Congress di Bandung (PERHATI-KL)",
+          "image": "/assets/img/project/congres.png"
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "items": [
+        {
+          "name": "Aplikasi Penerimaan Manfaat",
+          "company": "Dompet Dhuafa",
+          "description": "Sistem Informasi Penerimaan Manfaat – Dompet Dhuafa",
+          "image": "/assets/img/project/dd.png"
+        },
+        {
+          "name": "Online Shop Seni Butik",
+          "company": "Seni Butik",
+          "description": "Merancang Online Shop Seni Butik",
+          "image": "/assets/img/project/senibutik.png"
+        },
+        {
+          "name": "Website Bogor Broiler",
+          "company": "Bogor Broiler",
+          "description": "Website Bogor Broiler",
+          "image": "/assets/img/project/no-image.png"
+        },
+        {
+          "name": "Website Fajar Florst",
+          "company": "Fajar Florst",
+          "description": "Website Fajar Florst",
+          "image": "/assets/img/project/no-image.png"
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "items": [
+        {
+          "name": "Johns Pardede Hotel",
+          "company": "Johns Pardede Hotel",
+          "description": "Website Johns Pardede Hotel",
+          "image": "/assets/img/project/no-image.png"
+        },
+        {
+          "name": "Touchscreen S2 Unpad",
+          "company": "Universitas Padjadjaran",
+          "description": "Aplikasi Touchscreen akademik pada Program S2 Kedokteran (Universitas Padjadjaran)",
+          "image": "/assets/img/project/unpad1.jpg"
+        },
+        {
+          "name": "Logbook Online S2",
+          "company": "Universitas Padjadjaran",
+          "description": "Komputerisasi Logbook secara online pada Program S2 Kedokteran (Universitas Padjadjaran)",
+          "image": "/assets/img/project/Log Book.png"
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "items": [
+        {
+          "name": "Simulasi Parkir DPRD",
+          "company": "DPRD",
+          "description": "Perancangan simulasi parkir gedung DPRD",
+          "image": "/assets/img/project/no-image.png"
+        },
+        {
+          "name": "Redevelopment Website Sekolah Cherry",
+          "company": "Sekolah Cherry",
+          "description": "Membangun ulang Website Sekolah Cherry menggunakan CMS Joomla",
+          "image": "/assets/img/project/Sekolah Cherry.png"
+        },
+        {
+          "name": "Aplikasi Inventory",
+          "company": "Toko Famco Komputer",
+          "description": "Perancangan Sistem Informasi Toko Famco Komputer",
+          "image": "/assets/img/project/Inventory.png"
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "items": [
+        {
+          "name": "Aplikasi Apotek",
+          "company": "-",
+          "description": "Membangun Aplikasi Apotek dengan desktop installer",
+          "image": "/assets/img/project/Apotik.png"
+        }
+      ]
+    },
+    {
+      "year": 2011,
+      "items": [
+        {
+          "name": "Aplikasi Rumah Sakit ATS",
+          "company": "RSAU M. Hassan Toto",
+          "description": "Membangun Aplikasi Rumah Sakit di RSAU M. Hassan Toto dengan desktop installer",
+          "image": "/assets/img/project/ats.png"
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "items": [
+        {
+          "name": "Aplikasi Restaurant",
+          "company": "-",
+          "description": "Perancangan simulasi parkir gedung DPRD",
+          "image": "/assets/img/project/Restaurant.png"
+        }
+      ]
+    }
+  ],
+  "clients": [
+    { "name": "CIMB Finance", "logo": "/assets/img/clients/cimb.png", "category": "Banking" },
+    { "name": "Adira Finance", "logo": "/assets/img/clients/adira.png", "category": "Finance" },
+    { "name": "Gudang Garam", "logo": "/assets/img/clients/gudang-garam.png", "category": "Corporate" },
+    { "name": "MegaIns", "logo": "/assets/img/clients/megains.png", "category": "Insurance" },
+    { "name": "Universitas Padjadjaran", "logo": "/assets/img/clients/unpad.png", "category": "Education" },
+    { "name": "RSAU Dr. M. Hassan Toto", "logo": "/assets/img/clients/rsau.png", "category": "Healthcare" },
+    { "name": "PLN Indonesia Power", "logo": "/assets/img/clients/pln.png", "category": "Government" },
+    { "name": "PUPR", "logo": "/assets/img/clients/pupr.png", "category": "Government" },
+    { "name": "BAPENDA Kota Bogor", "logo": "/assets/img/clients/bapenda.png", "category": "Government" },
+    { "name": "ASDP Indonesia Ferry", "logo": "/assets/img/clients/asdp.png", "category": "Government" },
+    { "name": "Kemenag (Pokjawas)", "logo": "/assets/img/clients/kemenag.png", "category": "Government" },
+    { "name": "PT Focus Inti Solusi", "logo": "/assets/img/clients/focus.png", "category": "Technology" }
+  ],
+  "education": [
+    {
+      "degree": "Teknik Informatika",
+      "institution": "Universitas Mercu Buana",
+      "period": "2007 - 2011",
+      "description": "Focus on Software Engineering and Database Systems"
+    }
+  ],
+  "socialLinks": [
+    { "platform": "GitHub", "url": "https://github.com/firmansyahdiar", "icon": "fab fa-github" },
+    { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/diar-firmansyah-9813ba97", "icon": "fab fa-linkedin" },
+    { "platform": "Website", "url": "https://www.firmansyahdiar.my.id", "icon": "fas fa-globe" },
+    { "platform": "Email", "url": "mailto:firmansyahdiar@gmail.com", "icon": "fas fa-envelope" }
+  ],
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Interested in working together? Let's discuss your project",
+    "email": "firmansyahdiar@gmail.com",
+    "phone": "+6281290328569",
+    "location": "Bogor, Indonesia",
+    "availability": "Available for freelance and full-time opportunities",
+    "responseTime": "Usually responds within 24 hours"
+  },
+  "seo": {
+    "title": "Diar Firmansyah - Senior Fullstack Developer | CTO",
+    "description": "Senior Fullstack Developer dengan 10+ tahun pengalaman. Spesialisasi dalam Laravel, React, React Native, dan teknologi modern. Telah menangani 79+ proyek untuk klien korporat.",
+    "keywords": "fullstack developer, laravel developer, react native developer, CTO, senior developer, software engineer, web developer, mobile developer, indonesia developer, bogor developer",
+    "author": "Diar Firmansyah",
+    "ogImage": "/assets/img/og-image.jpg",
+    "twitterHandle": "@diarfirmansyah"
+  },
+  "meta": {
+    "lastUpdated": "2025-01-13",
+    "version": "1.0.0"
+  }
+}

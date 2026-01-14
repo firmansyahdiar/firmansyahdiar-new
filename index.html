@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title id="page-title">Diar Firmansyah - Senior Fullstack Developer | CTO</title>
+    <meta name="description" id="page-description" content="Senior Fullstack Developer dengan 10+ tahun pengalaman. Spesialisasi dalam Laravel, React, React Native, dan teknologi modern. Telah menangani 79+ proyek untuk klien korporat.">
+    <meta name="keywords" content="fullstack developer, laravel developer, react native developer, CTO, senior developer, software engineer, web developer, mobile developer, indonesia developer, bogor developer">
+    <meta name="author" content="Diar Firmansyah">
+    <link rel="canonical" href="https://www.firmansyahdiar.my.id">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" id="og-title" content="Diar Firmansyah - Senior Fullstack Developer | CTO">
+    <meta property="og:description" id="og-description" content="Senior Fullstack Developer dengan 10+ tahun pengalaman dalam web dan mobile development">
+    <meta property="og:image" content="./assets/img/og-image.jpg">
+    <meta property="og:url" content="https://www.firmansyahdiar.my.id">
+    <meta property="og:site_name" content="Diar Firmansyah Portfolio">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Diar Firmansyah - Senior Fullstack Developer">
+    <meta name="twitter:description" content="Senior Fullstack Developer dengan 10+ tahun pengalaman">
+    <meta name="twitter:image" content="./assets/img/og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Devicon for tech icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            200: '#bae6fd',
+                            300: '#7dd3fc',
+                            400: '#38bdf8',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                        }
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.5s ease-in',
+                        'slide-up': 'slideUp 0.5s ease-out',
+                        'slide-down': 'slideDown 0.5s ease-out',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' },
+                        },
+                        slideUp: {
+                            '0%': { transform: 'translateY(20px)', opacity: '0' },
+                            '100%': { transform: 'translateY(0)', opacity: '1' },
+                        },
+                        slideDown: {
+                            '0%': { transform: 'translateY(-20px)', opacity: '0' },
+                            '100%': { transform: 'translateY(0)', opacity: '1' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Custom Styles -->
+    <style>
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .dark .gradient-text {
+            background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .dark .gradient-text {
+            background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .skill-bar {
+            transition: width 1s ease-in-out;
+        }
+        
+        /* Smooth transitions */
+        * {
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        
+        /* Carousel Styles */
+        #featured-products {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+        
+        .line-clamp-1 {
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+        }
+        
+        .line-clamp-3 {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+    
+    </style>
+</head>
+<body class="font-sans antialiased bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+    
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-md z-50 border-b border-gray-200 dark:border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo/Name -->
+                <a href="#hero" class="text-xl font-bold gradient-text">
+                    <span id="nav-name">DF</span>
+                </a>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#about" class="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition">About</a>
+                    <a href="#products" class="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition">Products</a>
+                    <a href="#projects" class="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition">Projects</a>
+                    <a href="#skills" class="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition">Skills</a>
+                    <a href="#experience" class="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition">Experience</a>
+                    <a href="#contact" class="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition">Contact</a>
+                    
+                    <!-- Dark Mode Toggle -->
+                    <button id="theme-toggle" class="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition">
+                        <i class="fas fa-sun text-yellow-500 dark:hidden"></i>
+                        <i class="fas fa-moon text-blue-400 hidden dark:inline"></i>
+                    </button>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">
+                    <i class="fas fa-bars text-gray-700 dark:text-gray-300"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden border-t border-gray-200 dark:border-gray-800">
+            <div class="px-4 py-3 space-y-2">
+                <a href="#about" class="block py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400">About</a>
+                <a href="#products" class="block py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400">Products</a>
+                <a href="#skills" class="block py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400">Skills</a>
+                <a href="#experience" class="block py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400">Experience</a>
+                <a href="#projects" class="block py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400">Projects</a>
+                <a href="#contact" class="block py-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400">Contact</a>
+                <div class="pt-2">
+                    <button id="mobile-theme-toggle" class="w-full py-2 px-4 rounded-lg bg-gray-100 dark:bg-gray-800 text-left">
+                        <i class="fas fa-sun text-yellow-500 dark:hidden mr-2"></i>
+                        <i class="fas fa-moon text-blue-400 hidden dark:inline mr-2"></i>
+                        <span class="dark:hidden">Light Mode</span>
+                        <span class="hidden dark:inline">Dark Mode</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="hero" class="min-h-screen flex items-center justify-center pt-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto text-center animate-slide-up">
+            <div class="mb-8">
+                <div class="w-40 h-40 mx-auto rounded-full bg-gradient-to-br from-primary-500 to-purple-600 p-1 shadow-xl">
+                    <img id="hero-avatar" src="/assets/img/profile.JPG" alt="Diar Firmansyah" class="w-full h-full rounded-full object-cover">
+                </div>
+            </div>
+            
+            <h1 class="text-5xl md:text-7xl font-bold mb-4">
+                <span id="hero-name">Diar Firmansyah</span>
+            </h1>
+            
+            <p class="text-2xl md:text-3xl mb-6 text-gray-600 dark:text-gray-400">
+                <span id="hero-title">Senior Fullstack Developer</span>
+            </p>
+            
+            <p class="text-xl md:text-2xl mb-8 gradient-text font-semibold">
+                <span id="hero-subtitle">CTO | Tech Lead | Full Stack Engineer</span>
+            </p>
+            
+            <p class="text-lg md:text-xl mb-12 text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
+                <span id="hero-tagline">Building scalable solutions with 10+ years of experience</span>
+            </p>
+            
+            <!-- Stats -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 max-w-4xl mx-auto">
+                <div class="p-6 rounded-xl bg-gray-50 dark:bg-gray-800">
+                    <div class="text-4xl font-bold text-primary-600 dark:text-primary-400 mb-2">
+                        <span id="stat-years">10+</span>
+                    </div>
+                    <div class="text-gray-600 dark:text-gray-400">Years Experience</div>
+                </div>
+                <div class="p-6 rounded-xl bg-gray-50 dark:bg-gray-800">
+                    <div class="text-4xl font-bold text-primary-600 dark:text-primary-400 mb-2">
+                        <span id="stat-projects">79+</span>
+                    </div>
+                    <div class="text-gray-600 dark:text-gray-400">Projects Completed</div>
+                </div>
+                <div class="p-6 rounded-xl bg-gray-50 dark:bg-gray-800">
+                    <div class="text-4xl font-bold text-primary-600 dark:text-primary-400 mb-2">
+                        <span id="stat-clients">20+</span>
+                    </div>
+                    <div class="text-gray-600 dark:text-gray-400">Clients Served</div>
+                </div>
+            </div>
+            
+            <!-- CTAs -->
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#contact" class="px-8 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-semibold transition">
+                    Get In Touch
+                </a>
+                <a href="#products" class="px-8 py-3 border-2 border-primary-600 text-primary-600 dark:text-primary-400 hover:bg-primary-50 dark:hover:bg-primary-900/20 rounded-lg font-semibold transition">
+                    View My Work
+                </a>
+            </div>
+            
+            <!-- Social Links -->
+            <div id="hero-socials" class="flex justify-center gap-6 mt-12">
+                <!-- Will be populated by JS -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-800/50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">
+                    <span id="about-title">About Me</span>
+                </h2>
+                <div class="w-20 h-1 bg-gradient-to-r from-primary-600 to-purple-600 mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <p id="about-summary" class="text-lg text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
+                        <!-- Will be populated by JS -->
+                    </p>
+                    
+                    <div id="about-highlights" class="space-y-4">
+                        <!-- Will be populated by JS -->
+                    </div>
+                </div>
+                
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-6">Quick Info</h3>
+                    <div id="about-info" class="space-y-4">
+                        <!-- Will be populated by JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Products Section -->
+    <section id="products" class="py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">Featured Products & Projects</h2>
+                <div class="w-20 h-1 bg-gradient-to-r from-primary-600 to-purple-600 mx-auto"></div>
+            </div>
+            
+            <!-- Featured Products Carousel -->
+            <div class="relative mb-16">
+                <div class="overflow-hidden">
+                    <div id="featured-products" class="flex transition-transform duration-500 ease-in-out">
+                        <!-- Will be populated by JS -->
+                    </div>
+                </div>
+                
+                <!-- Carousel Controls -->
+                <button id="prev-product" class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 w-12 h-12 bg-white dark:bg-gray-800 rounded-full shadow-lg flex items-center justify-center hover:bg-primary-600 hover:text-white transition z-10">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button id="next-product" class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 w-12 h-12 bg-white dark:bg-gray-800 rounded-full shadow-lg flex items-center justify-center hover:bg-primary-600 hover:text-white transition z-10">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                
+                <!-- Carousel Indicators -->
+                <div id="carousel-indicators" class="flex justify-center gap-2 mt-8">
+                    <!-- Will be populated by JS -->
+                </div>
+            </div>
+            
+            <!-- Clients -->
+            <div class="mt-20">
+                <h3 class="text-3xl font-bold mb-12 text-center">Trusted by Leading Companies</h3>
+                <div id="clients-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+                    <!-- Will be populated by JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-800/50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">All Projects Timeline</h2>
+                <div class="w-20 h-1 bg-gradient-to-r from-primary-600 to-purple-600 mx-auto"></div>
+                <p class="mt-4 text-lg text-gray-600 dark:text-gray-400">A comprehensive timeline of projects delivered throughout the years</p>
+            </div>
+            
+            <div id="projects-timeline" class="space-y-8">
+                <!-- Will be populated by JS -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">Skills & Expertise</h2>
+                <div class="w-20 h-1 bg-gradient-to-r from-primary-600 to-purple-600 mx-auto"></div>
+            </div>
+            
+            <!-- Skills Categories -->
+            <div class="space-y-12">
+                <!-- Programming Languages -->
+                <div>
+                    <h3 class="text-2xl font-bold mb-6 text-center md:text-left">Programming Languages</h3>
+                    <div id="skills-languages" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                        <!-- Will be populated by JS -->
+                    </div>
+                </div>
+                
+                <!-- Frameworks -->
+                <div>
+                    <h3 class="text-2xl font-bold mb-6 text-center md:text-left">Frameworks & Libraries</h3>
+                    <div id="skills-frameworks" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                        <!-- Will be populated by JS -->
+                    </div>
+                </div>
+                
+                <!-- Databases -->
+                <div>
+                    <h3 class="text-2xl font-bold mb-6 text-center md:text-left">Databases</h3>
+                    <div id="skills-databases" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                        <!-- Will be populated by JS -->
+                    </div>
+                </div>
+                
+                <!-- Technologies -->
+                <div>
+                    <h3 class="text-2xl font-bold mb-6 text-center md:text-left">Technologies & Tools</h3>
+                    <div id="skills-technologies" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                        <!-- Will be populated by JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-800/50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">Work Experience</h2>
+                <div class="w-20 h-1 bg-gradient-to-r from-primary-600 to-purple-600 mx-auto"></div>
+            </div>
+            
+            <!-- Timeline -->
+            <div id="experience-timeline" class="space-y-8">
+                <!-- Will be populated by JS -->
+            </div>
+        </div>
+    </section>
+    
+
+    
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-800/50">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 id="contact-title" class="text-4xl md:text-5xl font-bold mb-4">Get In Touch</h2>
+                <div class="w-20 h-1 bg-gradient-to-r from-primary-600 to-purple-600 mx-auto mb-6"></div>
+                <p id="contact-subtitle" class="text-xl text-gray-600 dark:text-gray-400">
+                    Interested in working together? Let's discuss your project
+                </p>
+            </div>
+            
+            <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8 md:p-12">
+                <div class="grid md:grid-cols-2 gap-8 mb-8">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-primary-100 dark:bg-primary-900/30 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-envelope text-primary-600 dark:text-primary-400"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold mb-1">Email</h3>
+                            <a id="contact-email" href="mailto:firmansyahdiar@gmail.com" class="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400">
+                                firmansyahdiar@gmail.com
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-primary-100 dark:bg-primary-900/30 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-phone text-primary-600 dark:text-primary-400"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold mb-1">Phone</h3>
+                            <a id="contact-phone" href="tel:+6281290328569" class="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400">
+                                +62 812-9032-8569
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-primary-100 dark:bg-primary-900/30 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-map-marker-alt text-primary-600 dark:text-primary-400"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold mb-1">Location</h3>
+                            <p id="contact-location" class="text-gray-600 dark:text-gray-400">Bogor, Indonesia</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-primary-100 dark:bg-primary-900/30 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-clock text-primary-600 dark:text-primary-400"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold mb-1">Availability</h3>
+                            <p id="contact-availability" class="text-gray-600 dark:text-gray-400">Available for projects</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="border-t border-gray-200 dark:border-gray-700 pt-8">
+                    <h3 class="text-xl font-bold mb-4 text-center">Connect with me</h3>
+                    <div id="contact-socials" class="flex justify-center gap-4">
+                        <!-- Will be populated by JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="py-8 px-4 sm:px-6 lg:px-8 bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto text-center">
+            <p class="mb-2">
+                &copy; <span id="footer-year">2025</span> <span id="footer-name">Diar Firmansyah</span>. All rights reserved.
+            </p>
+            <p class="text-gray-400 text-sm">
+                Built with HTML, Tailwind CSS, and Vanilla JavaScript
+            </p>
+        </div>
+    </footer>
+    
+    <!-- Image Modal -->
+    <div id="image-modal" class="fixed inset-0 bg-black/90 hidden items-center justify-center z-50 p-4" style="display: none;">
+        <button id="close-modal" class="absolute top-4 right-4 w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center text-white text-2xl transition z-10">
+            <i class="fas fa-times"></i>
+        </button>
+        <button id="prev-image" class="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center text-white text-xl transition z-10">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button id="next-image" class="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center text-white text-xl transition z-10">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+        <div class="max-w-6xl max-h-full w-full flex flex-col items-center">
+            <img id="modal-image" src="" alt="" class="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl">
+            <div class="mt-4 text-center">
+                <h3 id="modal-title" class="text-xl font-bold text-white mb-2"></h3>
+                <p id="modal-description" class="text-gray-300"></p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Loading Indicator -->
+    <div id="loading" class="fixed inset-0 bg-white dark:bg-gray-900 flex items-center justify-center z-50">
+        <div class="text-center">
+            <div class="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-primary-600 mx-auto mb-4"></div>
+            <p class="text-gray-600 dark:text-gray-400">Loading portfolio...</p>
+        </div>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="./assets/js/theme.js"></script>
+    <script src="./assets/js/render.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
