@@ -9,14 +9,14 @@
     "website": "www.firmansyahdiar.my.id",
     "avatar": "/assets/img/profile.JPG",
     "tagline": "Building scalable solutions with 15+ years of experience",
-    "yearsOfExperience": 10,
+    "yearsOfExperience": 15,
     "projectsCompleted": 79,
     "clientsServed": 20,
     "hobbies": ["Badminton", "Traveling", "Fotografi"]
   },
   "about": {
     "title": "About Me",
-    "summary": "Senior Fullstack Developer dengan pengalaman lebih dari 10 tahun dalam pengembangan aplikasi web dan mobile. Berpengalaman memimpin tim sebagai CTO dan menangani proyek-proyek kompleks dari berbagai industri.",
+    "summary": "Senior Fullstack Developer dengan pengalaman lebih dari 15 tahun dalam pengembangan aplikasi web dan mobile. Berpengalaman memimpin tim sebagai CTO dan menangani proyek-proyek kompleks dari berbagai industri.",
     "highlights": [
       "15+ tahun pengalaman profesional di bidang software development",
       "Berpengalaman sebagai CTO di startup teknologi",
