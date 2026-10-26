@@ -8,7 +8,7 @@
     "phone": "+6281290328569",
     "website": "www.firmansyahdiar.my.id",
     "avatar": "/assets/img/profile.JPG",
-    "tagline": "Building scalable solutions with 10+ years of experience",
+    "tagline": "Building scalable solutions with 15+ years of experience",
     "yearsOfExperience": 10,
     "projectsCompleted": 79,
     "clientsServed": 20,
@@ -18,7 +18,7 @@
     "title": "About Me",
     "summary": "Senior Fullstack Developer dengan pengalaman lebih dari 10 tahun dalam pengembangan aplikasi web dan mobile. Berpengalaman memimpin tim sebagai CTO dan menangani proyek-proyek kompleks dari berbagai industri.",
     "highlights": [
-      "10+ tahun pengalaman profesional di bidang software development",
+      "15+ tahun pengalaman profesional di bidang software development",
       "Berpengalaman sebagai CTO di startup teknologi",
       "Ahli dalam fullstack development (Frontend & Backend)",
       "Telah menangani 79+ proyek untuk 20+ klien korporat",
@@ -277,27 +277,57 @@
     },
     {
       "id": 4,
-      "name": "Shira.id",
-      "tagline": "Platform Layanan Digital Terpadu",
-      "description": "Platform yang menyediakan berbagai layanan digital untuk memudahkan kehidupan sehari-hari.",
-      "url": "https://shira.id",
-      "image": "/assets/img/project/shira.png",
-      "category": "Digital Platform",
-      "technologies": [],
+      "name": "Warlok",
+      "tagline": "Urusan RT/RW jadi rapi dan terbuka, cukup dari HP.",
+      "description": "Iuran dan kas transparan, surat pengantar ber-QR, pengumuman, pengaduan warga, hingga tombol SOS — semua dalam satu aplikasi untuk pengurus dan warga. Gratis untuk warga, coba gratis untuk pengurus.",
+      "url": "https://warlok.firmansyahdiar.my.id",
+      "platforms": ["Web", "Android", "iOS"],
+      "image": "/assets/img/project/warlok.webp",
+      "category": "Aplikasi Komunitas",
+      "technologies": ["CodeIgniter 4", "React Native", "TypeScript", "MySQL"],
       "features": [
-        "Multi-service platform",
-        "Payment gateway integration",
-        "User management",
-        "Notification system"
-      ],
-      "stats": {
-        "users": "50+ Companies",
-        "downloads": "5K+",
-        "rating": "4.8/5"
-      }
+        "Kas & iuran transparan",
+        "Surat pengantar ber-QR",
+        "Pengumuman & pengaduan warga",
+        "Tombol SOS darurat"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Diagnosa HP",
+      "tagline": "Cek kondisi HP & speed internet",
+      "description": "Aplikasi utility yang menampilkan kondisi HP dengan data asli dari sistem: penyimpanan, RAM, baterai, jaringan, speed test, tes sensor & hardware, hingga Rapor Kondisi HP yang bisa dibagikan. Tanpa iklan, data tidak dikirim ke server.",
+      "url": "https://diagnosahp.firmansyahdiar.my.id",
+      "platforms": ["Android", "iOS"],
+      "image": "/assets/img/project/diagnosa-hp.webp",
+      "category": "Utilitas",
+      "technologies": ["React Native", "TypeScript", "Kotlin", "Swift"],
+      "features": [
+        "Penyimpanan, RAM & baterai",
+        "Speed test & speed meter",
+        "17 tes sensor & hardware",
+        "Rapor Kondisi HP"
+      ]
     }
   ],
   "projects": [
+    {
+      "year": 2026,
+      "items": [
+        {
+          "name": "Modul Penilaian Kompetensi BDP Learning",
+          "company": "PT. Bumi Daya Plaza",
+          "description": "Oktober 2026 — Pengembangan modul Penilaian Kompetensi (Kamus Kompetensi) pada LMS BDP Learning berbasis Laravel 11",
+          "image": "/assets/img/project/2026-bdp-penilaian.jpg"
+        },
+        {
+          "name": "SIMANO ASDP",
+          "company": "ASDP Indonesia Ferry",
+          "description": "Februari 2026 — Sistem Manajemen Operasional untuk memantau konsumsi BBM dan air tawar pada setiap kapal",
+          "image": "/assets/img/project/2026-simano.png"
+        }
+      ]
+    },
     {
       "year": 2025,
       "items": [
@@ -683,7 +713,7 @@
   },
   "seo": {
     "title": "Diar Firmansyah - Senior Fullstack Developer | CTO",
-    "description": "Senior Fullstack Developer dengan 10+ tahun pengalaman. Spesialisasi dalam Laravel, React, React Native, dan teknologi modern. Telah menangani 79+ proyek untuk klien korporat.",
+    "description": "Senior Fullstack Developer dengan 15+ tahun pengalaman. Spesialisasi dalam Laravel, React, React Native, dan teknologi modern. Telah menangani 79+ proyek untuk klien korporat.",
     "keywords": "fullstack developer, laravel developer, react native developer, CTO, senior developer, software engineer, web developer, mobile developer, indonesia developer, bogor developer",
     "author": "Diar Firmansyah",
     "ogImage": "/assets/img/og-image.jpg",

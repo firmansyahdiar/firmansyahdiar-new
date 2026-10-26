@@ -78,7 +78,7 @@ Web portfolio Anda telah berhasil dibuat dengan lengkap dan siap untuk digunakan
 ## 📊 PORTFOLIO DATA SUMMARY
 
 ### From Your CV:
-- **Years of Experience:** 10+
+- **Years of Experience:** 15+
 - **Total Projects:** 79
 - **Clients Served:** 20+
 - **Programming Languages:** 9 (PHP, JavaScript, Java, Python, C++, Dart, GoLang, Ruby, Swift)
@@ -106,7 +106,7 @@ Web portfolio Anda telah berhasil dibuat dengan lengkap dan siap untuk digunakan
 - PLN Indonesia Power
 - PUPR, ASDP Indonesia Ferry
 - Polda Yogyakarta, Basarnas
-- Dan 10+ klien lainnya
+- Dan 15+ klien lainnya
 
 ---
 
